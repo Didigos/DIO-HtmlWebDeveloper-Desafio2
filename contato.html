@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+   
+   <style>
+        table tbody tr{
+            margin: 0px;
+        }
+        table tbody td{
+            border: 1px solid rgb(214, 213, 213);
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: antiquewhite;
+        }
+        table tbody tr:hover td{
+            background-color: rgb(249, 185, 102);
+            cursor: pointer;
+        } 
+        .logo-footer{
+            width: 95px;
+            margin-top: 10px;
+            margin-left: 820px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Inicio</a></li>
+                <li><a href="Horario.html">Horario</a></li>
+                <li><a href="sobre.html">Sobre a Clinica</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img  src="banner-dia-idoso.png" alt="Banner do cabeçalho">
+            </div>
+    
+            <div class="content">
+                <h3>Entre em contato conosco.</h3>
+
+                <p>Nossas equipe está sempre a disposição para tirar qualquer dúvida sobre nossos serviços, abaixo você confere os meios de contato.
+                  
+                    <ul>
+                    <h3>Telefones de contato</h3>
+                    <li>(22) 4459-7789 - Telefone</li><br>
+                    <li>(22) 9897-4456 - WhatsApp</li><br>
+                    <h3>Endereço</h3>
+                    <li>Av. Rubens Rangel, n820, Arraias - Marataizes/ES</li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0565050530504!2d-40.81970408453907!3d-21.030424978898747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb93b1f4aab3b81%3A0xb895e911b15bce31!2sAv.%20Rubens%20Rangel%20-%20Alto%20Lagoa%20Funda%2C%20Marata%C3%ADzes%20-%20ES%2C%2029345-000!5e0!3m2!1spt-BR!2sbr!4v1677205137363!5m2!1spt-BR!2sbr" width="322" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </ul>
+
+                  <h3>Formulário de Contato</h3>
+
+                  <form action="" method="get">
+                    <label for="#">Nome: </label><input type="text"><br><br>
+                    <label for="#">E-mail: </label><input type="email"><br><br>
+                    <label for="#">Assunto:<input type="text"></label><br><br>
+                    <label for="#">Mensagem: </label><textarea cols="30" rows="5"></textarea><br><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                  </form>
+
+                </p>
+            <div class="footer">
+                <div>
+                    <img class="logo-footer" src="logo.png" alt="">
+                </div> <br><br>
+                <p>Todas as informações aqui contidas são meramento ilustrativas e ficticias, com objetivo do desafio do curso HTMl Developer da DIO.me </p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
